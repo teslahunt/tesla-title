@@ -22,10 +22,14 @@ test('Model S 70D', t => {
 
 test('Model S 75', t => {
   t.is(title({ optionCodes: ['MDLS', 'BTX5', 'DV2W'] }), 'Model S 75')
+  t.is(title({ optionCodes: ['MDLS', 'BTX7', 'DV2W'] }), 'Model S 75')
+  t.is(title({ optionCodes: ['MDLS', 'BTX8', 'DV2W'] }), 'Model S 75')
 })
 
 test('Model S 75D', t => {
   t.is(title({ optionCodes: ['MDLS', 'BTX5', 'DV4W'] }), 'Model S 75D')
+  t.is(title({ optionCodes: ['MDLS', 'BTX7', 'DV4W'] }), 'Model S 75D')
+  t.is(title({ optionCodes: ['MDLS', 'BTX8', 'DV4W'] }), 'Model S 75D')
 })
 
 test('Model S 85', t => {

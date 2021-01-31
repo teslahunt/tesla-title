@@ -5,7 +5,9 @@ const test = require('ava')
 const title = require('..')
 
 test('Model X 75D', t => {
-  t.is(title({ optionCodes: ['MDLX', 'BTX5', 'DV4W'] }), 'Model X 75D')
+  t.is(title({ optionCodes: ['MDLX', 'BTX5', 'DV4W'] }), 'Model S 75D')
+  t.is(title({ optionCodes: ['MDLX', 'BTX7', 'DV4W'] }), 'Model S 75D')
+  t.is(title({ optionCodes: ['MDLX', 'BTX8', 'DV4W'] }), 'Model S 75D')
 })
 
 test('Model X 90D', t => {

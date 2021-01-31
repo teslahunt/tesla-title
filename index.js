@@ -14,8 +14,16 @@ const MODEL_S = {
   'Model S 60': [['BT60', 'DV2W']],
   'Model S 70': [['BT70', 'DV2W']],
   'Model S 70D': [['BT70', 'DV4W']],
-  'Model S 75': [['BTX5', 'DV2W']],
-  'Model S 75D': [['BTX5', 'DV4W']],
+  'Model S 75': [
+    ['BTX5', 'DV2W'],
+    ['BTX7', 'DV2W'],
+    ['BTX8', 'DV2W']
+  ],
+  'Model S 75D': [
+    ['BTX5', 'DV4W'],
+    ['BTX7', 'DV4W'],
+    ['BTX8', 'DV4W']
+  ],
   'Model S P85+': [['PX01']],
   'Model S P85': [['BT85', 'X024', 'DV2W']],
   'Model S 85': [['BT85', 'DV2W']],
@@ -36,7 +44,11 @@ const MODEL_S = {
 }
 
 const MODEL_X = {
-  'Model X 75D': [['BTX5', 'DV4W']],
+  'Model X 75D': [
+    ['BTX5', 'DV4W'],
+    ['BTX7', 'DV4W'],
+    ['BTX8', 'DV4W']
+  ],
   'Model X P90D': [['BTX4', 'X024', 'DV4W']],
   'Model X 90D': [['BTX4', 'DV4W']],
   'Model X P100D': [['BTX6', 'X024', 'DV4W']],
