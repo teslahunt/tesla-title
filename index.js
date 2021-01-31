@@ -71,10 +71,17 @@ const MODEL_3 = {
   'Model 3 Performance': [['MT304'], ['MT311'], ['MT317']]
 }
 
+const MODEL_Y = {
+  'Model Y Standard Range': [['MTY01']],
+  'Model Y Long Range': [['MTY03']],
+  'Model Y Performance': [['MTY05']]
+}
+
 const getCollection = optionCodes => {
   if (optionCodes.includes('MDLS')) return MODEL_S
   if (optionCodes.includes('MDLX')) return MODEL_X
   if (optionCodes.includes('MDL3')) return MODEL_3
+  if (optionCodes.includes('MDLY')) return MODEL_Y
 }
 
 const fromOptionCodes = ({ onError = noop, ...opts } = {}) => {
