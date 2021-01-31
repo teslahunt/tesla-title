@@ -1,14 +1,7 @@
 'use strict'
 
-const condenseWhitespace = require('condense-whitespace')
-const { castArray, find } = require('lodash')
+const { noop, castArray, find } = require('lodash')
 
-// const sentry = require('./sentry')
-
-/**
- * TODO: Add
- *  Model S Standard Range
- */
 const MODEL_S = {
   'Model S 60D': [['BT60', 'DV4W']],
   'Model S 60': [['BT60', 'DV2W']],
@@ -38,9 +31,11 @@ const MODEL_S = {
   'Model S P100D': [['BTX6', 'X024', 'DV4W']],
   'Model S 100D': [['BTX6', 'DV4W']],
   'Model S Standard Range': [['MTS01']],
-  'Model S Long Range': [['MTS03'], ['MTS05']],
+  'Model S Long Range': [['MTS03'], ['MTS05'], ['MTS10']],
   'Model S Performance': [['MTS04'], ['MTS06'], ['MTS08']],
-  'Model S Long Range Plus': [['MTS07']]
+  'Model S Long Range Plus': [['MTS07']],
+  'Model S Plaid': [['MTS11']],
+  'Model S Plaid+': [['MTS09']]
 }
 
 const MODEL_X = {
@@ -54,9 +49,10 @@ const MODEL_X = {
   'Model X P100D': [['BTX6', 'X024', 'DV4W']],
   'Model X 100D': [['BTX6', 'DV4W']],
   'Model X Standard Range': [['MTX01']],
-  'Model X Long Range': [['MTX03']],
+  'Model X Long Range': [['MTX03'], ['MTX10']],
   'Model X Long Range Plus': [['MTX05'], ['MTX07']],
-  'Model X Performance': [['MTX04'], ['MTX06'], ['MTX08']]
+  'Model X Performance': [['MTX04'], ['MTX06'], ['MTX08']],
+  'Model X Plaid': [['MTX11']]
 }
 
 const MODEL_3 = {
@@ -79,10 +75,11 @@ const getCollection = optionCodes => {
   if (optionCodes.includes('MDLS')) return MODEL_S
   if (optionCodes.includes('MDLX')) return MODEL_X
   if (optionCodes.includes('MDL3')) return MODEL_3
-  // TODO: Add Model Y
 }
 
-const fromOptionCodes = ({ vin, optionCodes, description, model }) => {
+const fromOptionCodes = ({ onError = noop, ...opts } = {}) => {
+  const { optionCodes } = opts
+
   const collection = getCollection(optionCodes)
 
   let result
@@ -94,13 +91,7 @@ const fromOptionCodes = ({ vin, optionCodes, description, model }) => {
     return isMatch && (result = key)
   })
 
-  if (!result) {
-    console.log('not titled detected', { vin, optionCodes })
-    // sentry.warning('not titled detected', { vin, optionCodes })
-    return condenseWhitespace(model + ' ' + description.replace(model, ''))
-  }
-
-  return result
+  return result || onError(opts)
 }
 
-module.exports = optionCodes => fromOptionCodes(optionCodes)
+module.exports = fromOptionCodes

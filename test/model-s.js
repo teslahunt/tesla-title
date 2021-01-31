@@ -83,6 +83,7 @@ test('Model S Standard Range', t => {
 test('Model S Long Range', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS03'] }), 'Model S Long Range')
   t.is(title({ optionCodes: ['MDLS', 'MTS05'] }), 'Model S Long Range')
+  t.is(title({ optionCodes: ['MDLS', 'MTS10'] }), 'Model S Long Range')
 })
 
 test('Model S Long Range Plus', t => {
@@ -93,4 +94,12 @@ test('Model S Long Performance', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS04'] }), 'Model S Performance')
   t.is(title({ optionCodes: ['MDLS', 'MTS06'] }), 'Model S Performance')
   t.is(title({ optionCodes: ['MDLS', 'MTS08'] }), 'Model S Performance')
+})
+
+test('Model S Plaid', t => {
+  t.is(title({ optionCodes: ['MDLS', 'MTS11'] }), 'Model S Plaid')
+})
+
+test('Model S Plaid+', t => {
+  t.is(title({ optionCodes: ['MDLS', 'MTS09'] }), 'Model S Plaid+')
 })

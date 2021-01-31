@@ -35,6 +35,7 @@ test('Model X Standard Range', t => {
 
 test('Model X Long Range', t => {
   t.is(title({ optionCodes: ['MDLX', 'MTX03'] }), 'Model X Long Range')
+  t.is(title({ optionCodes: ['MDLX', 'MTX10'] }), 'Model X Long Range')
 })
 
 test('Model X Long Range Plus', t => {
@@ -46,4 +47,8 @@ test('Model X Performance', t => {
   t.is(title({ optionCodes: ['MDLX', 'MTX06'] }), 'Model X Performance')
   t.is(title({ optionCodes: ['MDLX', 'MTX04'] }), 'Model X Performance')
   t.is(title({ optionCodes: ['MDLX', 'MTX08'] }), 'Model X Performance')
+})
+
+test('Model X Plaid', t => {
+  t.is(title({ optionCodes: ['MDLX', 'MTX11'] }), 'Model X Plaid')
 })
