@@ -1,7 +1,7 @@
 {
   "name": "@teslahunt/title",
   "description": "Get Tesla vehicles title based on option codes",
-  "homepage": "https://nicedoc.io/teslahunt/teslahunt-title",
+  "homepage": "https://nicedoc.io/teslahunt/title",
   "version": "0.0.2",
   "main": "index.js",
   "author": {
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teslahunt/teslahunt-title.git"
+    "url": "git+https://github.com/teslahunt/title.git"
   },
   "bugs": {
-    "url": "https://github.com/teslahunt/teslahunt-title/issues"
+    "url": "https://github.com/teslahunt/title/issues"
   },
   "keywords": [
     "tesla"
