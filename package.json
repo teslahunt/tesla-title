@@ -23,7 +23,10 @@
     "url": "https://github.com/teslahunt/title/issues"
   },
   "keywords": [
-    "tesla"
+    "tesla",
+    "teslaapi",
+    "tesla-api",
+    "teslamotors"
   ],
   "dependencies": {
     "condense-whitespace": "~2.0.0",
