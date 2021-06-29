@@ -17,20 +17,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teslahunt/title.git"
+    "url": "git+https://github.com/teslahunt/tesla-title.git"
   },
   "bugs": {
-    "url": "https://github.com/teslahunt/title/issues"
+    "url": "https://github.com/teslahunt/tesla-title/issues"
   },
   "keywords": [
     "tesla",
+    "title",
     "tesla-api",
     "teslaapi",
     "teslamotors"
   ],
   "dependencies": {
-    "condense-whitespace": "~2.0.0",
-    "lodash": "~4.17.20"
+    "lodash": "~4.17.21"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -38,7 +38,6 @@
     "ava": "latest",
     "ci-publish": "latest",
     "conventional-github-releaser": "latest",
-    "coveralls": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
     "git-dirty": "latest",
@@ -60,7 +59,6 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
     "prerelease": "npm run update:check && npm run contributors",
