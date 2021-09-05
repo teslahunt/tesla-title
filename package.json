@@ -24,10 +24,10 @@
   },
   "keywords": [
     "tesla",
-    "title",
     "tesla-api",
     "teslaapi",
-    "teslamotors"
+    "teslamotors",
+    "title"
   ],
   "dependencies": {
     "lodash": "~4.17.21"
