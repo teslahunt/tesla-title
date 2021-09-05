@@ -80,7 +80,7 @@ const MODEL_3 = {
 const MODEL_Y = {
   'Model Y Standard Range': [['MTY01']],
   'Model Y Long Range RWD': [['MTY02']],
-  'Model Y Long Range AWD': [['MTY03']],
+  'Model Y Long Range AWD': [['MTY03'], ['MTY07']],
   'Model Y Performance': [['MTY04'], ['MTY05']]
 }
 

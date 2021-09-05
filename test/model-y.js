@@ -14,6 +14,7 @@ test('Model Y Long Range RWD', t => {
 
 test('Model Y Long Range AWD', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY03'] }), 'Model Y Long Range AWD')
+  t.is(title({ optionCodes: ['MDLY', 'MTY07'] }), 'Model Y Long Range AWD')
 })
 
 test('Model Y Performance', t => {
