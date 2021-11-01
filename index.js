@@ -73,7 +73,8 @@ const MODEL_3 = {
     ['MT310'],
     ['MT315'],
     ['MT316'],
-    ['MT321']
+    ['MT321'],
+    ['MT323']
   ],
   'Model 3 Performance': [['MT304'], ['MT311'], ['MT317']]
 }
