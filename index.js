@@ -24,7 +24,7 @@ const MODEL_S = {
   ],
   'Model S 85': [['BT85', 'DV2W']],
   'Model S 85D': [['BT85', 'DV4W']],
-  'Model S P85D': [['P85D']],
+  'Model S P85D': [['P85D'], ['PBT85', 'X024', 'DV4W']],
   'Model S P90D': [
     ['X024', 'BTX4', 'DV4W'],
     ['X024', 'PX4D', 'DV4W']
