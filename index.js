@@ -47,7 +47,10 @@ const MODEL_X = {
     ['BTX7', 'DV4W'],
     ['BTX8', 'DV4W']
   ],
-  'Model X P90D': [['BTX4', 'X024', 'DV4W']],
+  'Model X P90D': [
+    ['X024', 'BTX4', 'DV4W'],
+    ['X024', 'PX4D', 'DV4W']
+  ],
   'Model X 90D': [['BTX4', 'DV4W']],
   'Model X P100D': [['BTX6', 'X024', 'DV4W']],
   'Model X 100D': [['BTX6', 'DV4W']],

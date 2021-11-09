@@ -16,6 +16,7 @@ test('Model X 90D', t => {
 
 test('Model X P90D', t => {
   t.is(title({ optionCodes: ['MDLX', 'X024', 'BTX4', 'DV4W'] }), 'Model X P90D')
+  t.is(title({ optionCodes: ['MDLX', 'X024', 'PX4D', 'DV4W'] }), 'Model X P90D')
 })
 
 test('Model X 100D', t => {
