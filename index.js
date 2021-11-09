@@ -66,6 +66,7 @@ const MODEL_3 = {
   'Model 3 Standard Range Plus': [
     ['MT301'],
     ['MT308'],
+    ['MT309'],
     ['MT314'],
     ['MT320'],
     ['MT322'],
