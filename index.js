@@ -118,3 +118,7 @@ const fromOptionCodes = ({ onError = noop, ...opts } = {}) => {
 }
 
 module.exports = fromOptionCodes
+module.exports.MODEL_S = MODEL_S
+module.exports.MODEL_X = MODEL_X
+module.exports.MODEL_3 = MODEL_3
+module.exports.MODEL_Y = MODEL_Y
