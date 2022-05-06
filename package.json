@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teslahunt/tesla-title.git"
+    "url": "git+https://github.com/teslahunt/title.git"
   },
   "bugs": {
-    "url": "https://github.com/teslahunt/tesla-title/issues"
+    "url": "https://github.com/teslahunt/title/issues"
   },
   "keywords": [
     "tesla",
