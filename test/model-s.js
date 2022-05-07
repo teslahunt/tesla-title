@@ -101,8 +101,13 @@ test('Model S Long Performance', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS08'] }), 'Model S Performance')
 })
 
+test('Model S', t => {
+  t.is(title({ optionCodes: ['MDLS', 'MTS13'] }), 'Model S')
+})
+
 test('Model S Plaid', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS11'] }), 'Model S Plaid')
+  t.is(title({ optionCodes: ['MDLS', 'MTS14'] }), 'Model S Plaid')
 })
 
 test('Model S Plaid+', t => {
