@@ -25,7 +25,7 @@ title({ optionCodes: ['MDLS', 'BT85', 'DV4W'] }) // => 'Model S 85D'
 
 ## License
 
-**teslahunt-title** © [Tesla Hunt](https://teslahunt.io), released under the [MIT](https://github.com/teslahunt/teslahunt-title/blob/master/LICENSE.md) License.<br>
-Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/teslahunt-title/contributors).
+**tesla-title** © [Tesla Hunt](https://teslahunt.io), released under the [MIT](https://github.com/teslahunt/title/blob/master/LICENSE.md) License.<br>
+Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/title/contributors).
 
-> [teslahunt.io](https://teslahunt.io) · GitHub [Tesla Hunt](https://github.com/teslahunt) · Twitter [@teslahunt](https://twitter.com/teslahunt)
+> [teslahunt.io](https://teslahunt.io) · GitHub [teslahunt](https://github.com/teslahunt) · Twitter [@teslahuntio](https://twitter.com/teslahuntio)
