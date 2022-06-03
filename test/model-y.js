@@ -23,4 +23,5 @@ test('Model Y Long Range AWD', t => {
 test('Model Y Performance', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY04'] }), 'Model Y Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY05'] }), 'Model Y Performance')
+  t.is(title({ optionCodes: ['MDLY', 'MTY12'] }), 'Model Y Performance')
 })

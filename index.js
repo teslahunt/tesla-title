@@ -101,7 +101,7 @@ const MODEL_Y = {
     ['MTY09'],
     ['MTY11']
   ],
-  'Model Y Performance': [['MTY04'], ['MTY05']]
+  'Model Y Performance': [['MTY04'], ['MTY05'], ['MTY12']]
 }
 
 const getCollection = optionCodes => {
