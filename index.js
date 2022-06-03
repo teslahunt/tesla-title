@@ -38,7 +38,7 @@ const MODEL_S = {
   'Model S Performance': [['MTS04'], ['MTS06'], ['MTS08']],
   'Model S Long Range Plus': [['MTS07']],
   'Model S': [['MTS13']],
-  'Model S Plaid': [['MTS11'], ['MTS14']],
+  'Model S Plaid': [['MTS11'], ['MTS12'], ['MTS14']],
   'Model S Plaid+': [['MTS09']]
 }
 

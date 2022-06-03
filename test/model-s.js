@@ -107,6 +107,7 @@ test('Model S', t => {
 
 test('Model S Plaid', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS11'] }), 'Model S Plaid')
+  t.is(title({ optionCodes: ['MDLS', 'MTS12'] }), 'Model S Plaid')
   t.is(title({ optionCodes: ['MDLS', 'MTS14'] }), 'Model S Plaid')
 })
 
