@@ -95,7 +95,7 @@ test('Model S Long Range Plus', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS07'] }), 'Model S Long Range Plus')
 })
 
-test('Model S Long Performance', t => {
+test('Model S Performance', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS04'] }), 'Model S Performance')
   t.is(title({ optionCodes: ['MDLS', 'MTS06'] }), 'Model S Performance')
   t.is(title({ optionCodes: ['MDLS', 'MTS08'] }), 'Model S Performance')
