@@ -51,6 +51,7 @@ test('Model X Performance', t => {
 })
 
 test('Model X', t => {
+  t.is(title({ optionCodes: ['MDLX', 'MTX12'] }), 'Model X')
   t.is(title({ optionCodes: ['MDLX', 'MTX13'] }), 'Model X')
 })
 
