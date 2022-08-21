@@ -99,7 +99,8 @@ const MODEL_Y = {
     ['MTY06'],
     ['MTY07'],
     ['MTY09'],
-    ['MTY11']
+    ['MTY11'],
+    ['MTY14']
   ],
   'Model Y Performance': [['MTY04'], ['MTY05'], ['MTY12']]
 }
