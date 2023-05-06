@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2023-05-06)
+
+
+### Features
+
+* add MT327 and MT329 ([#7](https://github.com/teslahunt/title/issues/7)) ([40030c8](https://github.com/teslahunt/title/commit/40030c88aeb8537b6db55116bce2c95bb0589353))
+
 ### 1.0.29 (2023-03-12)
 
 ### 1.0.28 (2022-11-10)
