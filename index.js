@@ -78,7 +78,7 @@ const MODEL_3 = {
     ['MT337']
   ],
   'Model 3 Mid Range': [['MT305'], ['MT307']],
-  'Model 3 Long Range RWD': [['MT302']],
+  'Model 3 Long Range RWD': [['MT302'], ['MT341']],
   'Model 3 Long Range AWD': [
     ['MT303'],
     ['MT310'],
