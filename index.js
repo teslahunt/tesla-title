@@ -59,7 +59,7 @@ const MODEL_X = {
   'Model X Long Range': [['MTX03'], ['MTX10']],
   'Model X Long Range Plus': [['MTX05'], ['MTX07']],
   'Model X Performance': [['MTX04'], ['MTX06'], ['MTX08']],
-  'Model X': [['MTX12'], ['MTX13']],
+  'Model X': [['MTX12'], ['MTX13'], ['MTX15']],
   'Model X Plaid': [['MTX11'], ['MTX14']],
   'Model X Plaid+': [['MTX09']]
 }
