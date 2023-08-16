@@ -33,7 +33,7 @@ const MODEL_S = {
   'Model S 90D': [['BTX4', 'DV4W']],
   'Model S P100D': [['BTX6', 'X024', 'DV4W']],
   'Model S 100D': [['BTX6', 'DV4W']],
-  'Model S Standard Range': [['MTS01']],
+  'Model S Standard Range': [['MTS01'], ['MTS17']],
   'Model S Long Range': [['MTS03'], ['MTS05'], ['MTS10']],
   'Model S Performance': [['MTS04'], ['MTS06'], ['MTS08']],
   'Model S Long Range Plus': [['MTS07']],
