@@ -55,7 +55,7 @@ const MODEL_X = {
   'Model X 90D': [['BTX4', 'DV4W']],
   'Model X P100D': [['BTX6', 'X024', 'DV4W']],
   'Model X 100D': [['BTX6', 'DV4W']],
-  'Model X Standard Range': [['MTX01']],
+  'Model X Standard Range': [['MTX01'], ['MTX17']],
   'Model X Long Range': [['MTX03'], ['MTX10']],
   'Model X Long Range Plus': [['MTX05'], ['MTX07']],
   'Model X Performance': [['MTX04'], ['MTX06'], ['MTX08']],

@@ -32,6 +32,7 @@ test('Model X P100D', t => {
 
 test('Model X Standard Range', t => {
   t.is(title({ optionCodes: ['MDLX', 'MTX01'] }), 'Model X Standard Range')
+  t.is(title({ optionCodes: ['MDLX', 'MTX17'] }), 'Model X Standard Range')
 })
 
 test('Model X Long Range', t => {
