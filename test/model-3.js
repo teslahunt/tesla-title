@@ -4,6 +4,10 @@ const test = require('ava')
 
 const title = require('..')
 
+test('Model 3', t => {
+  t.is(title({ optionCodes: ['MDL3', 'MT322'] }), 'Model 3')
+})
+
 test('Model 3 Standard Range', t => {
   t.is(title({ optionCodes: ['MDL3', 'MT300'] }), 'Model 3 Standard Range')
 })
@@ -22,7 +26,6 @@ test('Model 3 Standard Range Plus', t => {
   t.is(title({ optionCodes: ['MDL3', 'MT336'] }), 'Model 3 Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT337'] }), 'Model 3 Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT301'] }), 'Model 3 Standard Range Plus')
-  t.is(title({ optionCodes: ['MDL3', 'MT322'] }), 'Model 3 Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT327'] }), 'Model 3 Standard Range Plus')
 })
 
