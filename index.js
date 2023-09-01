@@ -65,7 +65,7 @@ const MODEL_X = {
 }
 
 const MODEL_3 = {
-  'Model 3': [['MT322']],
+  'Model 3': [['MT322'], ['MT351']],
   'Model 3 Standard Range': [['MT300']],
   'Model 3 Standard Range Plus': [
     ['MT301'],
