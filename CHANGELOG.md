@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/teslahunt/title/compare/v1.1.9...v2.0.0) (2023-10-18)
+
+
+### Features
+
+* remove repetitive words ([#10](https://github.com/teslahunt/title/issues/10)) ([6856674](https://github.com/teslahunt/title/commit/6856674d561d49b504ec3af81a9f62ad3538a8c7))
+
 ### 1.1.9 (2023-10-18)
 
 ### 1.1.8 (2023-10-02)
