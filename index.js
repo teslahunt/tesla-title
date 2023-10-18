@@ -1,8 +1,6 @@
 'use strict'
 
-const { noop, castArray, find } = require('lodash')
-
-const MODEL_S = {
+const MODEL_S = Object.entries({
   'Model S 60D': [['BT60', 'DV4W']],
   'Model S 60': [['BT60', 'DV2W']],
   'Model S 70': [['BT70', 'DV2W']],
@@ -40,9 +38,9 @@ const MODEL_S = {
   'Model S': [['MTS13']],
   'Model S Plaid': [['MTS11'], ['MTS12'], ['MTS14']],
   'Model S Plaid+': [['MTS09']]
-}
+})
 
-const MODEL_X = {
+const MODEL_X = Object.entries({
   'Model X 75D': [
     ['BTX5', 'DV4W'],
     ['BTX7', 'DV4W'],
@@ -62,9 +60,9 @@ const MODEL_X = {
   'Model X': [['MTX12'], ['MTX13'], ['MTX15']],
   'Model X Plaid': [['MTX11'], ['MTX14'], ['MTX16']],
   'Model X Plaid+': [['MTX09']]
-}
+})
 
-const MODEL_3 = {
+const MODEL_3 = Object.entries({
   'Model 3': [['MT322'], ['MT351']],
   'Model 3 Standard Range': [['MT300']],
   'Model 3 Standard Range Plus': [
@@ -98,9 +96,9 @@ const MODEL_3 = {
     ['MT329'],
     ['MT340']
   ]
-}
+})
 
-const MODEL_Y = {
+const MODEL_Y = Object.entries({
   'Model Y Standard Range': [['MTY01'], ['MTY13']],
   'Model Y Long Range RWD': [['MTY02']],
   'Model Y Long Range AWD': [
@@ -112,7 +110,7 @@ const MODEL_Y = {
     ['MTY14']
   ],
   'Model Y Performance': [['MTY04'], ['MTY05'], ['MTY10'], ['MTY12']]
-}
+})
 
 const getCollection = optionCodes => {
   if (optionCodes.includes('MDLS')) return MODEL_S
@@ -121,21 +119,21 @@ const getCollection = optionCodes => {
   if (optionCodes.includes('MDLY')) return MODEL_Y
 }
 
-const fromOptionCodes = ({ onError = noop, ...opts } = {}) => {
+const fromOptionCodes = ({ onError, ...opts } = {}) => {
   const { optionCodes } = opts
 
   const collection = getCollection(optionCodes)
 
   let result
 
-  find(collection, (values, key) => {
-    const isMatch = castArray(values).some(values =>
-      values.every(item => optionCodes.includes(item))
+  collection.find(([title, allConditions]) => {
+    const isMatch = allConditions.some(conditions =>
+      conditions.every(optionCode => optionCodes.includes(optionCode))
     )
-    return isMatch && (result = key)
+    return isMatch && (result = title)
   })
 
-  return result || onError(opts)
+  return result ?? onError?.(opts)
 }
 
 module.exports = fromOptionCodes
