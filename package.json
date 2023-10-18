@@ -29,9 +29,6 @@
     "teslamotors",
     "title"
   ],
-  "dependencies": {
-    "lodash": "~4.17.21"
-  },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
