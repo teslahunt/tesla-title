@@ -4,6 +4,10 @@ const test = require('ava')
 
 const title = require('..')
 
+test('Model Y', t => {
+  t.is(title({ optionCodes: ['MDLY', 'MTY19'] }), '')
+})
+
 test('Model Y Standard Range', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY01'] }), 'Standard Range')
   t.is(title({ optionCodes: ['MDLY', 'MTY13'] }), 'Standard Range')

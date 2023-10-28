@@ -119,6 +119,7 @@ const MODEL_3 = [
 ]
 
 const MODEL_Y = [
+  ['', [['MTY19']]],
   ['Standard Range', [['MTY01'], ['MTY13']]],
   ['Long Range RWD', [['MTY02']]],
   [
