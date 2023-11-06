@@ -5,11 +5,13 @@ const test = require('ava')
 const title = require('..')
 
 test('Model Y', t => {
+  t.is(title({ optionCodes: ['MDLY', 'MTY18'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY19'] }), '')
 })
 
 test('Model Y Standard Range', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY01'] }), 'Standard Range')
+  t.is(title({ optionCodes: ['MDLY', 'MTY08'] }), 'Standard Range')
   t.is(title({ optionCodes: ['MDLY', 'MTY13'] }), 'Standard Range')
 })
 
@@ -24,6 +26,7 @@ test('Model Y Long Range AWD', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY09'] }), 'Long Range AWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY11'] }), 'Long Range AWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY14'] }), 'Long Range AWD')
+  t.is(title({ optionCodes: ['MDLY', 'MTY20'] }), 'Long Range AWD')
 })
 
 test('Model Y Performance', t => {

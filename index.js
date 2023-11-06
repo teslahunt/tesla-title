@@ -119,14 +119,22 @@ const MODEL_3 = [
 ]
 
 const MODEL_Y = [
-  ['', [['MTY19']]],
-  ['Standard Range', [['MTY01'], ['MTY13']]],
+  ['', [['MTY18'], ['MTY19']]],
+  ['Standard Range', [['MTY01'], ['MTY08'], ['MTY13']]],
   ['Long Range RWD', [['MTY02']]],
   [
     'Long Range AWD',
-    [['MTY03'], ['MTY06'], ['MTY07'], ['MTY09'], ['MTY11'], ['MTY14']]
+    [
+      ['MTY03'],
+      ['MTY06'],
+      ['MTY07'],
+      ['MTY09'],
+      ['MTY11'],
+      ['MTY14'],
+      ['MTY20']
+    ]
   ],
-  ['Performance', [['MTY04'], ['MTY05'], ['MTY10'], ['MTY12']]]
+  ['Performance', [['MTY04'], ['MTY05'], ['MTY10'], ['MTY12']], ['MTY21']]
 ]
 
 const getCollection = optionCodes => {
