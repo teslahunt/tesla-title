@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.6 (2023-12-04)
+
+
+### Bug Fixes
+
+* MTY21 detection ([28ed4d4](https://github.com/teslahunt/title/commit/28ed4d4e51c02d5d5affe7156acd4f138c109838))
+
 ### [2.0.5](https://github.com/teslahunt/title/compare/v2.0.4...v2.0.5) (2023-12-02)
 
 ### 2.0.4 (2023-11-06)
