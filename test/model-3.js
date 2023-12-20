@@ -53,6 +53,7 @@ test('Model 3 Performance', t => {
   t.is(title({ optionCodes: ['MDL3', 'MT304'] }), 'Performance')
   t.is(title({ optionCodes: ['MDL3', 'MT317'] }), 'Performance')
   t.is(title({ optionCodes: ['MDL3', 'MT325'] }), 'Performance')
-  t.is(title({ optionCodes: ['MDL3', 'MT340'] }), 'Performance')
   t.is(title({ optionCodes: ['MDL3', 'MT329'] }), 'Performance')
+  t.is(title({ optionCodes: ['MDL3', 'MT339'] }), 'Performance')
+  t.is(title({ optionCodes: ['MDL3', 'MT340'] }), 'Performance')
 })
