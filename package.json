@@ -1,7 +1,7 @@
 {
   "name": "tesla-title",
   "description": "Get Tesla vehicles title based on option codes",
-  "homepage": "https://nicedoc.io/teslahunt/title",
+  "homepage": "https://github.com/teslahunt/title",
   "version": "2.0.9",
   "main": "index.js",
   "author": {
@@ -36,9 +36,9 @@
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
-    "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
+    "github-generate-release": "latest",
     "nano-staged": "latest",
     "npm-check-updates": "latest",
     "simple-git-hooks": "latest",
@@ -60,7 +60,7 @@
     "prerelease": "npm run update:check && npm run contributors",
     "pretest": "npm run lint",
     "release": "standard-version -a",
-    "release:github": "conventional-github-releaser -p angular",
+    "release:github": "github-generate-release",
     "release:tags": "git push --follow-tags origin HEAD:master",
     "test": "c8 ava",
     "update": "ncu -u",
