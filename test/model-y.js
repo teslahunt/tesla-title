@@ -7,6 +7,7 @@ const title = require('..')
 test('Model Y', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY18'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY19'] }), '')
+  t.is(title({ optionCodes: ['MDLY', 'MTY23'] }), '')
 })
 
 test('Model Y Standard Range', t => {
