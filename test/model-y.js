@@ -37,5 +37,6 @@ test('Model Y Performance', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY10'] }), 'Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY12'] }), 'Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY21'] }), 'Performance')
+  t.is(title({ optionCodes: ['MDLY', 'MTY25'] }), 'Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY26'] }), 'Performance')
 })
