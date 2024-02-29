@@ -129,7 +129,7 @@ const MODEL_3 = [
 ]
 
 const MODEL_Y = [
-  ['', [['MTY18'], ['MTY19'], ['MTY23']]],
+  ['', [['MTY18'], ['MTY19'], ['MTY23'], ['MTY26']]],
   ['Standard Range', [['MTY01'], ['MTY08'], ['MTY13']]],
   ['Long Range RWD', [['MTY02']]],
   [
@@ -142,7 +142,8 @@ const MODEL_Y = [
       ['MTY11'],
       ['MTY14'],
       ['MTY20'],
-      ['MTY24']
+      ['MTY24'],
+      ['MTY27']
     ]
   ],
   [
@@ -154,7 +155,7 @@ const MODEL_Y = [
       ['MTY12'],
       ['MTY21'],
       ['MTY25'],
-      ['MTY26']
+      ['MTY28']
     ]
   ]
 ]
