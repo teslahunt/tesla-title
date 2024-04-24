@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.1.0 (2024-04-24)
+
+
+### Features
+
+* add MT353 ([25bbcd1](https://github.com/teslahunt/title/commit/25bbcd144eb0f19b0b86b6f84c5e41f002cdebc3))
+
 ### 2.0.21 (2024-02-29)
 
 ### 2.0.20 (2024-02-26)
