@@ -158,7 +158,8 @@ const MODEL_Y = [
       ['MTY12'],
       ['MTY21'],
       ['MTY25'],
-      ['MTY28']
+      ['MTY28'],
+      ['MTY34']
     ]
   ]
 ]
