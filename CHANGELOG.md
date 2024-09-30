@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.1.9 (2024-09-30)
+
+
+### Bug Fixes
+
+* script ([e1e5ef7](https://github.com/teslahunt/title/commit/e1e5ef7c8bd344024005fca943f972690416460a))
+
 ### 2.1.8 (2024-06-21)
 
 ### 2.1.7 (2024-06-19)
