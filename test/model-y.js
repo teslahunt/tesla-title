@@ -22,6 +22,7 @@ test('Model Y Long Range RWD', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY02'] }), 'Long Range RWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY29'] }), 'Long Range RWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY35'] }), 'Long Range RWD')
+  t.is(title({ optionCodes: ['MDLY', 'MTY36'] }), 'Long Range RWD')
 })
 
 test('Model Y Long Range AWD', t => {
@@ -35,6 +36,7 @@ test('Model Y Long Range AWD', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY24'] }), 'Long Range AWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY27'] }), 'Long Range AWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY33'] }), 'Long Range AWD')
+  t.is(title({ optionCodes: ['MDLY', 'MTY37'] }), 'Long Range AWD')
 })
 
 test('Model Y Performance', t => {
@@ -46,4 +48,5 @@ test('Model Y Performance', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY25'] }), 'Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY28'] }), 'Performance')
   t.is(title({ optionCodes: ['MDLY', 'MTY34'] }), 'Performance')
+  t.is(title({ optionCodes: ['MDLY', 'MTY38'] }), 'Performance')
 })
