@@ -99,7 +99,7 @@ const MODEL_3 = [
     ]
   ],
   ['Mid Range', [['MT305'], ['MT307']]],
-  ['Long Range RWD', [['MT302'], ['MT341'], ['MT334']]],
+  ['Long Range RWD', [['MT302'], ['MT341'], ['MT334'], ['MT356']]],
   [
     'Long Range AWD',
     [
