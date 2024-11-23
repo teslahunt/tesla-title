@@ -2,7 +2,7 @@
   "name": "tesla-title",
   "description": "Get Tesla vehicles title based on option codes",
   "homepage": "https://github.com/teslahunt/title",
-  "version": "2.1.13",
+  "version": "2.1.14",
   "main": "index.js",
   "author": {
     "email": "hello@teslahunt.io",
