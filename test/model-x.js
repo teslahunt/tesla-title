@@ -53,6 +53,7 @@ test('Model X', t => {
   t.is(title({ optionCodes: ['MDLX', 'MTX13'] }), '')
   t.is(title({ optionCodes: ['MDLX', 'MTX15'] }), '')
   t.is(title({ optionCodes: ['MDLX', 'MTX18'] }), '')
+  t.is(title({ optionCodes: ['MDLX', 'MTX20'] }), '')
 })
 
 test('Model X Plaid', t => {
@@ -60,6 +61,7 @@ test('Model X Plaid', t => {
   t.is(title({ optionCodes: ['MDLX', 'MTX14'] }), 'Plaid')
   t.is(title({ optionCodes: ['MDLX', 'MTX16'] }), 'Plaid')
   t.is(title({ optionCodes: ['MDLX', 'MTX19'] }), 'Plaid')
+  t.is(title({ optionCodes: ['MDLX', 'MTX21'] }), 'Plaid')
 })
 
 test('Model X Plaid+', t => {

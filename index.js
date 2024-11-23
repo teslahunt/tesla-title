@@ -75,8 +75,8 @@ const MODEL_X = [
   ['Long Range', [['MTX03'], ['MTX10']]],
   ['Long Range Plus', [['MTX05'], ['MTX07']]],
   ['Performance', [['MTX04'], ['MTX06'], ['MTX08']]],
-  ['', [['MTX12'], ['MTX13'], ['MTX15'], ['MTX18']]],
-  ['Plaid', [['MTX11'], ['MTX14'], ['MTX16'], ['MTX19']]],
+  ['', [['MTX12'], ['MTX13'], ['MTX15'], ['MTX18'], ['MTX20']]],
+  ['Plaid', [['MTX11'], ['MTX14'], ['MTX16'], ['MTX19'], ['MTX21']]],
   ['Plaid+', [['MTX09']]]
 ]
 
