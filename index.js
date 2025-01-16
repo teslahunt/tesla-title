@@ -81,7 +81,7 @@ const MODEL_X = [
 ]
 
 const MODEL_3 = [
-  ['', [['MT322'], ['MT351']]],
+  ['', [['MT322'], ['MT351'], ['MT358']]],
   ['Standard Range', [['MT300']]],
   [
     'Standard Range Plus',
