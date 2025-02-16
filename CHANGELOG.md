@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.1.18 (2025-02-16)
+
+
+### Bug Fixes
+
+* code MTS12 ([edf7fd7](https://github.com/teslahunt/title/commit/edf7fd785feb744f7b03aff65779c862c9faafe7))
+
 ### 2.1.17 (2025-01-25)
 
 ### 2.1.16 (2025-01-24)
