@@ -97,13 +97,13 @@ test('Model S Performance', t => {
 })
 
 test('Model S', t => {
+  t.is(title({ optionCodes: ['MDLS', 'MTS12'] }), '')
   t.is(title({ optionCodes: ['MDLS', 'MTS13'] }), '')
   t.is(title({ optionCodes: ['MDLS', 'MTS18'] }), '')
 })
 
 test('Model S Plaid', t => {
   t.is(title({ optionCodes: ['MDLS', 'MTS11'] }), 'Plaid')
-  t.is(title({ optionCodes: ['MDLS', 'MTS12'] }), 'Plaid')
   t.is(title({ optionCodes: ['MDLS', 'MTS14'] }), 'Plaid')
   t.is(title({ optionCodes: ['MDLS', 'MTS19'] }), 'Plaid')
   t.is(title({ optionCodes: ['MDLS', 'MTS21'] }), 'Plaid')
