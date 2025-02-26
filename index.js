@@ -47,7 +47,7 @@ const MODEL_S = [
   ['Long Range', [['MTS03'], ['MTS05'], ['MTS10']]],
   ['Performance', [['MTS04'], ['MTS06'], ['MTS08']]],
   ['Long Range Plus', [['MTS07']]],
-  ['', [['MTS12'], ['MTS13'], ['MTS18']]],
+  ['', [['MTS12'], ['MTS13'], ['MTS18'], ['MTS20']]],
   ['Plaid', [['MTS11'], ['MTS14'], ['MTS19'], ['MTS21']]],
   ['Plaid+', [['MTS09']]]
 ]
