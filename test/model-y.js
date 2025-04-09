@@ -10,6 +10,7 @@ test('Model Y', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY23'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY26'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY32'] }), '')
+  t.is(title({ optionCodes: ['MDLY', 'MTY48'] }), '')
 })
 
 test('Model Y Standard Range', t => {
