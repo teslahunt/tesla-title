@@ -10,6 +10,7 @@ test('Model Y', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY23'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY26'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY32'] }), '')
+  t.is(title({ optionCodes: ['MDLY', 'MTY40'] }), '')
   t.is(title({ optionCodes: ['MDLY', 'MTY48'] }), '')
 })
 
@@ -24,6 +25,7 @@ test('Model Y Long Range RWD', t => {
   t.is(title({ optionCodes: ['MDLY', 'MTY29'] }), 'Long Range RWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY35'] }), 'Long Range RWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY36'] }), 'Long Range RWD')
+  t.is(title({ optionCodes: ['MDLY', 'MTY46'] }), 'Long Range RWD')
   t.is(title({ optionCodes: ['MDLY', 'MTY50'] }), 'Long Range RWD')
 })
 

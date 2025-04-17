@@ -133,9 +133,23 @@ const MODEL_3 = [
 ]
 
 const MODEL_Y = [
-  ['', [['MTY18'], ['MTY19'], ['MTY23'], ['MTY26'], ['MTY32'], ['MTY48']]],
+  [
+    '',
+    [
+      ['MTY18'],
+      ['MTY19'],
+      ['MTY23'],
+      ['MTY26'],
+      ['MTY32'],
+      ['MTY40'],
+      ['MTY48']
+    ]
+  ],
   ['Standard Range', [['MTY01'], ['MTY08'], ['MTY13']]],
-  ['Long Range RWD', [['MTY02'], ['MTY29'], ['MTY35'], ['MTY36'], ['MTY50']]],
+  [
+    'Long Range RWD',
+    [['MTY02'], ['MTY29'], ['MTY35'], ['MTY36'], ['MTY46'], ['MTY50']]
+  ],
   [
     'Long Range AWD',
     [
