@@ -26,6 +26,7 @@ test('Model 3 Standard Range Plus', t => {
   t.is(title({ optionCodes: ['MDL3', 'MT314'] }), 'Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT320'] }), 'Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT327'] }), 'Standard Range Plus')
+  t.is(title({ optionCodes: ['MDL3', 'MT331'] }), 'Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT332'] }), 'Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT333'] }), 'Standard Range Plus')
   t.is(title({ optionCodes: ['MDL3', 'MT336'] }), 'Standard Range Plus')
